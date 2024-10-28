@@ -30,8 +30,8 @@ export default function HeroSection() {
           </div>
           <div className="relative mx-auto max-w-lg lg:max-w-none">
             <Image
-              src="/placeholder.svg?height=600&width=600"
-              alt="Hero image"
+              src="https://raw.githubusercontent.com/heykapil/data/master/undraw_team_collaboration_re_ow29.svg"
+              alt="Team collaboration illustration showing people working together on a digital platform"
               width={600}
               height={600}
               className="w-full rounded-lg object-cover shadow-xl"
