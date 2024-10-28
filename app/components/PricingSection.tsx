@@ -41,10 +41,10 @@ export default function PricingSection() {
           </p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-muted-foreground">
-          Choose an affordable plan that's packed with the best features for engaging your audience,
+          Choose an affordable plan {"that's"} packed with the best features for engaging your audience,
           creating customer loyalty, and driving sales.
         </p>
-        <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="isolate gap-4 mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {tiers.map((tier, tierIdx) => (
             <div
               key={tier.id}
@@ -92,8 +92,8 @@ export default function PricingSection() {
                   mt-8 block rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2
                   ${
                     tier.mostPopular
-                      ? 'bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 focus-visible:outline-primary'
-                      : 'bg-secondary text-secondary-foreground hover:bg-secondary/90 focus-visible:outline-secondary'
+                      ? 'bg-blue-600 text-white hover:bg-blue-500 focus-visible:outline-blue-600'
+                      : 'bg-blue-50 text-blue-600 hover:bg-blue-100 focus-visible:outline-blue-600'
                   }
                 `}
               >

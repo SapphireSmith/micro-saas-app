@@ -16,13 +16,13 @@ export default function HeroSection() {
             <div className="flex justify-center gap-4 lg:justify-start">
               <Link
                 href="/get-started"
-                className="inline-flex items-center justify-center rounded-md bg-secondary px-5 py-3 text-base font-medium text-secondary-foreground transition-colors hover:bg-secondary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+                className="inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-3 text-base font-medium text-white transition-colors hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 Get Started
               </Link>
               <Link
                 href="/learn-more"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-primary-foreground px-5 py-3 text-base font-medium text-primary transition-colors hover:bg-primary-foreground/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-foreground"
+                className="inline-flex items-center justify-center rounded-md border border-blue-600 px-5 py-3 text-base font-medium text-blue-600 transition-colors hover:bg-blue-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 Learn More
               </Link>
